@@ -4,6 +4,8 @@
 
 #define MAX 800
 
+float A[MAX][MAX], B[MAX][MAX], C[MAX][MAX];
+
 int main()
 {
 	clock_t start, finish;
@@ -18,8 +20,7 @@ int main()
     scanf("%d",&n);
     printf(" Please input row number p of B: \n");
     scanf("%d",&p);
-
-	float A[MAX][MAX], B[MAX][MAX], C[MAX][MAX];
+    
 	float tmp;	
 
 	/* A */
